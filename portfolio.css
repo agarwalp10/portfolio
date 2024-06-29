@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+}
+
+
+h1 {
+    font-weight: 800;
+}
+
+a {
+    color: beige;
+
+}
+
+.nav-link {
+    color:beige;
+}
+
+a:hover {
+
+}
+
+.navbar-brand {
+    font-weight: 500;
+    /* color: aqua; */
+    font-size: 30px;
+
+}
+
+img {
+    width: min(20rem, 75%);
+    border-radius: 100%;
+    
+    /* grid-area: 1/1/2/2; */
+}
+
+section {
+    /* padding-top: 170px; */
+    /* padding: 170 px; */
+    border-color: aqua;
+
+}
+
+.heading {
+    padding-top: 100px;
+}
+
+#hero {
+    padding: 10px;
+}
+
+#hero h1 {
+    color: beige;
+    font-weight: 900;
+}
+
+#hero p {
+    color: beige;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px;
+    border-width: 2px;
+    border-color: beige;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    color: beige;
+
+}
+
+/* ABOUT */
+#about {
+    position: relative;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    /* border: ; */
+    border-color: black;
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
